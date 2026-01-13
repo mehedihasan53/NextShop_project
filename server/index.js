@@ -13,7 +13,7 @@ const DATA_PATH = path.join(__dirname, 'data', 'items.json');
 const app = express();
 app.use(cors({
     origin: process.env.NODE_ENV === 'production'
-        ? ['https://your-domain.com'] // Replace with your actual domain
+        ? ['https://your-domain.com'] 
         : true,
     credentials: true
 }));
