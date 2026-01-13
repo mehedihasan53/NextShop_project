@@ -12,6 +12,34 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'via.placeholder.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.gadstyle.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'encrypted-tbn0.gstatic.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'istarmax.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.rawpixel.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i5.walmartimages.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ae01.alicdn.com',
+      },
     ],
   },
   experimental: {
