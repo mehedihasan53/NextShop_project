@@ -13,7 +13,7 @@ const DATA_PATH = path.join(__dirname, 'data', 'items.json');
 const app = express();
 app.use(cors({
     origin: process.env.NODE_ENV === 'production'
-        ? ['https://your-domain.com'] 
+        ? ['https://your-domain.com']
         : true,
     credentials: true
 }));
@@ -89,7 +89,7 @@ app.post('/api/items', async (req, res) => {
     res.status(201).json(newItem);
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4001;
 app.listen(PORT, () => {
     console.log(`Express server running on port ${PORT}`);
 });

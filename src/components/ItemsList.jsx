@@ -18,7 +18,7 @@ export default function ItemsList() {
         if (!mounted) return;
 
         let isMounted = true;
-        const base = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+        const base = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4001';
 
         fetch(`${base}/api/items`)
             .then((r) => r.json())

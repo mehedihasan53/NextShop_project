@@ -13,10 +13,10 @@ export default function Footer() {
     ];
 
     const supportLinks = [
-        { href: '#', label: 'Help Center' },
-        { href: '#', label: 'Contact' },
-        { href: '#', label: 'Privacy Policy' },
-        { href: '#', label: 'Terms of Service' },
+        { href: '/help', label: 'Help Center' },
+        { href: '/contact', label: 'Contact' },
+        { href: '/privacy', label: 'Privacy Policy' },
+        { href: '/terms', label: 'Terms of Service' },
     ];
 
     const socialLinks = [
@@ -126,7 +126,7 @@ export default function Footer() {
                             </h3>
                             <ul className="space-y-3">
                                 {quickLinks.map((link) => (
-                                    <li key={link.href}>
+                                    <li key={link.label}>
                                         <Link
                                             href={link.href}
                                             className="
@@ -153,7 +153,7 @@ export default function Footer() {
                             </h3>
                             <ul className="space-y-3">
                                 {supportLinks.map((link) => (
-                                    <li key={link.href}>
+                                    <li key={link.label}>
                                         <Link
                                             href={link.href}
                                             className="
