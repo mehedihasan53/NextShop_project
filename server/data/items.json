@@ -1,23 +1,72 @@
 [
   {
     "id": "1",
-    "name": "Cloud Lamp",
-    "description": "A soft ambient lamp shaped like a cloud. Perfect for cozy evenings.",
-    "price": 39.99,
-    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=800&q=60"
+    "name": "Noise-Cancelling Earbuds",
+    "description": "Compact and powerful earbuds with active noise cancellation.",
+    "price": 149.00,
+    "image": "https://www.gadstyle.com/wp-content/uploads/2021/09/anker-life-p3-noise-cancelling-earbuds-1.jpg"
   },
   {
     "id": "2",
-    "name": "Minimalist Chair",
-    "description": "Ergonomic, comfortable, and crafted from sustainable materials.",
-    "price": 129.0,
-    "image": "https://images.unsplash.com/photo-1582585236228-6f0f0f9a1b35?auto=format&fit=crop&w=800&q=60"
+    "name": "Travel Pillow",
+    "description": "Ergonomic memory foam travel pillow for ultimate comfort on the go.",
+    "price": 25.00,
+    "image": "https://m.media-amazon.com/images/I/71E4uDdX1bL._AC_SL400_.jpg"
   },
   {
     "id": "3",
-    "name": "Ceramic Mug",
-    "description": "Hand-glazed mug that's dishwasher-safe and microwave-friendly.",
-    "price": 15.5,
-    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=60"
+    "name": "Robot Vacuum Cleaner",
+    "description": "Automate your cleaning with this smart, self-charging robot vacuum.",
+    "price": 299.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZZJEnBW7kF6TiagMSg5YUdxYi9txzy60vvg&s"
+  },
+  {
+    "id": "4",
+    "name": "Fitness Tracker",
+    "description": "Monitor your heart rate, steps, and sleep with this advanced tracker.",
+    "price": 79.99,
+    "image": "https://istarmax.com/wp-content/uploads/2022/01/s5-black-1024x1024.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Portable Projector",
+    "description": "Enjoy movie nights anywhere with this compact and powerful projector.",
+    "price": 199.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMZ7ccP4a9l1Tm9UoF7_-nv21PfMreaw_y1A&s"
+  },
+  {
+    "id": "6",
+    "name": "Smart Plug",
+    "description": "Turn any appliance into a smart device with this easy-to-use smart plug.",
+    "price": 14.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTptdMqK9kvwjOirZqMqV_bNWWqaNNVxcSow&s"
+  },
+  {
+    "id": "7",
+    "name": "Electric Kettle",
+    "description": "Boil water quickly and safely with this sleek electric kettle.",
+    "price": 45.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7-FdzwvgSmahOaTuQ6jUefULKj6e4bNfJug&s"
+  },
+  {
+    "id": "8",
+    "name": "Backpack",
+    "description": "Durable and stylish backpack with multiple compartments for daily use.",
+    "price": 60.00,
+    "image": "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8xOV9waG90b19vZl90ZWVuX3NjaG9vbF9iYWNrcGFja19pc29sYXRlZF9vbl93aF9iYzY3OTMwNC04ZTY1LTQzNmUtYWE3ZS02ZjUyZWVkYzkwN2EucG5n.png"
+  },
+  {
+    "id": "9",
+    "name": "Desk Organizer",
+    "description": "Keep your workspace tidy with this minimalist desk organizer.",
+    "price": 28.00,
+    "image": "https://i5.walmartimages.com/seo/Deli-Mesh-Desktop-Organizer-Office-Supplies-7-Compartments-Black_e6b8fc9a-d065-403f-9bee-eccae7c3d227.aced616e7e7604f8fe107a52b82cf91d.jpeg"
+  },
+  {
+    "id": "10",
+    "name": "Hand Cream Set",
+    "description": "Nourishing hand creams with natural ingredients, perfect for gifting.",
+    "price": 19.99,
+    "image": "https://ae01.alicdn.com/kf/S04e91325f8ec4545baa5046726db4e67Y.jpg"
   }
 ]
