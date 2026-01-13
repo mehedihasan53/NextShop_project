@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export default function Footer() {
-    // Current year for copyright
+
     const currentYear = new Date().getFullYear();
 
     // Navigation links configuration
@@ -54,7 +54,6 @@ export default function Footer() {
             {/* Top gradient glow border */}
             <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-cyan-500/50 to-transparent" />
 
-            {/* Background with glassmorphism effect */}
             <div className="relative bg-slate-900/80 backdrop-blur-xl border-t border-slate-700/30">
                 {/* Gradient overlay for premium effect */}
                 <div className="absolute inset-0 bg-gradient-to-br from-slate-900/90 via-slate-800/80 to-slate-900/90" />
