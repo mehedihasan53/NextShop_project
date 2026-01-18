@@ -41,7 +41,7 @@ A full-stack e-commerce demonstration built with Next.js 16 (App Router) and Nex
 
    ```env
    # NextAuth Configuration
-   NEXTAUTH_URL=http://localhost:3000
+   NEXTAUTH_URL=https://next-shop-project-final.vercel.app
    NEXTAUTH_SECRET=your-super-secret-key-change-this-in-production
 
    # EmailJS Configuration
@@ -51,7 +51,7 @@ A full-stack e-commerce demonstration built with Next.js 16 (App Router) and Nex
 
    # API Configuration
    NEXT_PUBLIC_API_URL=https://next-shop-project-final.vercel.app
-   EXPRESS_API_URL=https://your-render-backend-url.onrender.com
+
    ```
 
 ## 🚀 Running the Application
@@ -65,7 +65,7 @@ A full-stack e-commerce demonstration built with Next.js 16 (App Router) and Nex
    ```
 
 2. **Access the application**:
-   - Frontend: http://localhost:3000
+   - Frontend: https://next-shop-project-final.vercel.app
 
 ### Production Mode
 
@@ -241,7 +241,7 @@ Update `.env.local` for production:
 
 ```env
 # NextAuth Configuration
-NEXTAUTH_URL=https://your-domain.com
+NEXTAUTH_URL=https://next-shop-project-final.vercel.app
 NEXTAUTH_SECRET=your-super-secret-key-change-this-in-production
 
 # EmailJS Configuration (keep existing values)
@@ -250,7 +250,7 @@ NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=template_bv6broq
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=AQ8zJpBiGIQlCpSr3
 
 # API Configuration
-NEXT_PUBLIC_API_URL=https://your-domain.com
+NEXT_PUBLIC_API_URL=https://next-shop-project-final.vercel.app
 NODE_ENV=production
 ```
 

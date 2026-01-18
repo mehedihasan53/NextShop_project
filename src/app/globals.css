@@ -123,5 +123,4 @@ body {
 /* Additional extension cleanup */
 body[bis_skin_checked],
 html[bis_skin_checked] {
-  /* Ensure body and html don't get affected */
 }

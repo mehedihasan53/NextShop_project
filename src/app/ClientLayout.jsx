@@ -9,7 +9,6 @@ import { usePathname } from 'next/navigation';
 import { useExtensionCleanup } from '@/hooks/useExtensionCleanup';
 import Footer from '@/components/Footer';
 
-// Clean Dark Mode Navbar component
 function AuthNavbar() {
     const { data: session, status } = useSession();
     const [isLoggingOut, setIsLoggingOut] = useState(false);
@@ -121,7 +120,6 @@ function AuthNavbar() {
 export default function ClientLayout({ children }) {
     const [mounted, setMounted] = useState(false);
 
-    // Clean up browser extension attributes to prevent hydration mismatches
     useExtensionCleanup();
 
     useEffect(() => {

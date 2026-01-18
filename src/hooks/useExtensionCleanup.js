@@ -18,10 +18,7 @@ const EXTENSION_ATTRIBUTES = [
     'data-extension-added'
 ];
 
-/**
- * Custom hook to clean up browser extension attributes that cause hydration mismatches
- * Prevents extensions like Avast, Grammarly, LastPass, etc. from interfering with React hydration
- */
+
 export function useExtensionCleanup() {
     useEffect(() => {
         if (typeof window === 'undefined') return;
