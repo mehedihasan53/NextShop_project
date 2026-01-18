@@ -125,8 +125,9 @@ The authentication system uses:
 
 ### Next.js API Routes
 
-- `POST /api/auth/login` - User authentication
-- `POST /api/auth/logout` - User logout
+- `POST /api/auth/signin` - NextAuth.js authentication (credentials)
+- `POST /api/auth/signout` - NextAuth.js logout
+- `GET /api/auth/session` - Get current session
 - `POST /api/proxy/items` - Proxy item creation to Express
 
 ### Express API Routes
@@ -134,8 +135,15 @@ The authentication system uses:
 - `GET /api/items` - Fetch all items
 - `GET /api/items/:id` - Fetch single item
 - `POST /api/items` - Create new item (protected)
-- `POST /api/login` - Set authentication cookie
-- `POST /api/logout` - Clear authentication cookie
+
+## 🔐 Authentication
+
+The application uses NextAuth.js with credentials provider for mock authentication:
+
+- **Demo Email**: `admin@gmail.com`
+- **Demo Password**: `123456`
+- **Protected Routes**: Product details pages (`/items/[id]`)
+- **Public Routes**: Home, Items list, Login page
 
 ## 🎨 Styling
 

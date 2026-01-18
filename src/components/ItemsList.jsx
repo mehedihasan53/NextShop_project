@@ -20,7 +20,7 @@ export default function ItemsList() {
         let isMounted = true;
         const base = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4001';
 
-        fetch(`${base}/api/items`)
+        fetch(`/api/items`)
             .then((r) => r.json())
             .then((data) => {
                 if (isMounted) setItems(data);
@@ -67,10 +67,7 @@ export default function ItemsList() {
                     {[...Array(6)].map((_, index) => (
                         <div
                             key={index}
-                            className="
-                                relative bg-slate-800/40 backdrop-blur-xl border border-slate-700/50 
-                                rounded-2xl p-6 shadow-xl animate-pulse
-                            "
+                            className="relative bg-slate-800/40 backdrop-blur-xl border border-slate-700/50 rounded-2xl p-6 shadow-xl animate-pulse"
                         >
                             {/* Image Skeleton */}
                             <div className="w-full h-48 bg-slate-700/50 rounded-xl mb-4" />
@@ -102,10 +99,7 @@ export default function ItemsList() {
         return (
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="max-w-md mx-auto text-center">
-                    <div className="
-                        relative bg-red-500/10 backdrop-blur-xl border border-red-500/30 
-                        rounded-2xl p-8 shadow-xl
-                    ">
+                    <div className="relative bg-red-500/10 backdrop-blur-xl border border-red-500/30 rounded-2xl p-8 shadow-xl">
                         {/* Error Icon */}
                         <div className="flex justify-center mb-4">
                             <div className="w-16 h-16 bg-red-500/20 rounded-full flex items-center justify-center">
@@ -120,12 +114,7 @@ export default function ItemsList() {
 
                         <button
                             onClick={() => window.location.reload()}
-                            className="
-                                px-6 py-3 bg-red-500/20 border border-red-500/30 
-                                text-red-300 font-medium rounded-lg backdrop-blur-sm
-                                hover:bg-red-500/30 hover:border-red-400/50 hover:text-red-200
-                                hover:scale-105 transition-all duration-300
-                            "
+                            className="px-6 py-3 bg-red-500/20 border border-red-500/30 text-red-300 font-medium rounded-lg backdrop-blur-sm hover:bg-red-500/30 hover:border-red-400/50 hover:text-red-200 hover:scale-105 transition-all duration-300"
                         >
                             Try Again
                         </button>
@@ -140,10 +129,7 @@ export default function ItemsList() {
         return (
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="max-w-lg mx-auto text-center">
-                    <div className="
-                        relative bg-slate-800/40 backdrop-blur-xl border border-slate-700/50 
-                        rounded-2xl p-12 shadow-xl
-                    ">
+                    <div className="relative bg-slate-800/40 backdrop-blur-xl border border-slate-700/50 rounded-2xl p-12 shadow-xl">
                         {/* Background gradient */}
                         <div className="absolute inset-0 bg-gradient-to-br from-slate-800/60 via-slate-700/40 to-slate-800/60 rounded-2xl" />
 
@@ -169,25 +155,14 @@ export default function ItemsList() {
                             <div className="flex flex-col sm:flex-row gap-3 justify-center">
                                 <button
                                     onClick={() => window.location.reload()}
-                                    className="
-                                        px-6 py-3 bg-slate-700/50 border border-slate-600/50 
-                                        text-slate-300 font-medium rounded-lg backdrop-blur-sm
-                                        hover:bg-slate-600/50 hover:border-slate-500/50 hover:text-white
-                                        hover:scale-105 transition-all duration-300
-                                    "
+                                    className="px-6 py-3 bg-slate-700/50 border border-slate-600/50 text-slate-300 font-medium rounded-lg backdrop-blur-sm hover:bg-slate-600/50 hover:border-slate-500/50 hover:text-white hover:scale-105 transition-all duration-300"
                                 >
                                     Refresh Page
                                 </button>
 
                                 <button
                                     onClick={() => window.history.back()}
-                                    className="
-                                        px-6 py-3 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 
-                                        border border-cyan-500/30 text-cyan-300 font-medium rounded-lg
-                                        hover:bg-gradient-to-r hover:from-cyan-500/30 hover:to-blue-500/30
-                                        hover:border-cyan-400/50 hover:text-cyan-200 hover:scale-105
-                                        transition-all duration-300
-                                    "
+                                    className="px-6 py-3 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 text-cyan-300 font-medium rounded-lg hover:bg-gradient-to-r hover:from-cyan-500/30 hover:to-blue-500/30 hover:border-cyan-400/50 hover:text-cyan-200 hover:scale-105 transition-all duration-300"
                                 >
                                     Go Back
                                 </button>

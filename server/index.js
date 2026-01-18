@@ -89,7 +89,7 @@ app.post('/api/items', async (req, res) => {
     res.status(201).json(newItem);
 });
 
-const PORT = process.env.PORT || 4001;
+const PORT = 9876;
 app.listen(PORT, () => {
     console.log(`Express server running on port ${PORT}`);
 });

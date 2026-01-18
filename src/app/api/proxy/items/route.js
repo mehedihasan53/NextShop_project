@@ -6,7 +6,7 @@ export async function POST(req) {
     if (auth !== 'true') return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     const body = await req.json();
     // forward to Express server
-    const res = await fetch('http://localhost:4000/api/items', {
+    const res = await fetch('http://localhost:9876/api/items', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body),

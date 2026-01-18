@@ -35,7 +35,10 @@ export default function Loading() {
                                 <div className="bg-slate-700/30 backdrop-blur-sm border border-slate-600/30 rounded-xl p-4 text-center">
                                     <div className="flex justify-center space-x-1 mb-2">
                                         {[...Array(5)].map((_, i) => (
-                                            <div key={i} className="w-4 h-4 bg-slate-600/50 rounded" />
+                                            <div
+                                                key={i}
+                                                className="w-4 h-4 bg-slate-600/50 rounded"
+                                            />
                                         ))}
                                     </div>
                                     <div className="w-12 h-3 bg-slate-600/50 rounded mx-auto" />
@@ -73,7 +76,10 @@ export default function Loading() {
                                 <div className="w-36 h-6 bg-slate-600/50 rounded" />
                                 <div className="bg-slate-700/30 backdrop-blur-sm border border-slate-600/30 rounded-xl p-6 space-y-3">
                                     {[...Array(4)].map((_, i) => (
-                                        <div key={i} className="flex justify-between items-center py-2">
+                                        <div
+                                            key={i}
+                                            className="flex justify-between items-center py-2"
+                                        >
                                             <div className="w-24 h-4 bg-slate-600/50 rounded" />
                                             <div className="w-20 h-4 bg-slate-600/50 rounded" />
                                         </div>

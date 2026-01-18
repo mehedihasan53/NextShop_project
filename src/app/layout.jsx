@@ -1,5 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "./landing.css";
+import ClientLayout from './ClientLayout';
+import { getServerSession } from 'next-auth/next';
+import SessionProvider from '@/components/SessionProvider';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,20 +20,19 @@ export const metadata = {
   description: "A modern e-commerce demo built with Next.js and Express",
 };
 
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Toaster from '../components/Toaster';
+export default async function RootLayout({ children }) {
+  const session = await getServerSession();
 
-export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true} data-scroll-behavior="smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning={true}
+        data-no-extensions="true"
       >
-        <Navbar />
-        <main className="pt-16 lg:pt-18">{children}</main>
-        <Footer />
-        <Toaster />
+        <SessionProvider session={session}>
+          <ClientLayout>{children}</ClientLayout>
+        </SessionProvider>
       </body>
     </html>
   );
