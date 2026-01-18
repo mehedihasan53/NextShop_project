@@ -50,8 +50,8 @@ A full-stack e-commerce demonstration built with Next.js 16 (App Router) and Nex
    NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=AQ8zJpBiGIQlCpSr3
 
    # API Configuration
-   NEXT_PUBLIC_API_URL=http://localhost:3000
-   EXPRESS_API_URL=http://localhost:4000
+   NEXT_PUBLIC_API_URL=https://next-shop-project-final.vercel.app
+   EXPRESS_API_URL=https://your-render-backend-url.onrender.com
    ```
 
 ## 🚀 Running the Application
