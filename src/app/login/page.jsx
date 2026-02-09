@@ -75,13 +75,11 @@ export default function LoginPage() {
             </div>
         );
     }
-
     return (
         <div className="h-full bg-slate-900 flex items-center justify-center py-8 px-4">
             {/* Login Card */}
             <div className="w-full max-w-md">
                 <div className="bg-slate-800 border border-slate-700 rounded-2xl shadow-xl p-8">
-                    {/* Header */}
                     <div className="text-center mb-8">
                         {/* Logo */}
                         <div className="flex justify-center mb-6">
