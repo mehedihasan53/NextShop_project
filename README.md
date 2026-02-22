@@ -132,7 +132,7 @@ The authentication system uses:
 ├── server/                    # Data storage
 │   ├── index.js              # Express server (optional)
 │   └── data/items.json       # JSON data store
-└── public/                   # Static assets
+└── public/                   # Static assets 
 ```
 
 ## 🛡️ API Endpoints
