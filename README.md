@@ -2,7 +2,7 @@
 
 A full-stack e-commerce demonstration built with Next.js 16 (App Router) and NextAuth.js, featuring product management, authentication, and a responsive UI with clean dark mode design.
 
-## 🚀 Features
+## 🚀 Features 
 
 - **Modern Stack**: Next.js 16 with App Router, React 19, NextAuth.js
 - **Authentication**: NextAuth.js with credentials provider and protected routes
