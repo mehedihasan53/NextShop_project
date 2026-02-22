@@ -40,7 +40,7 @@ A full-stack e-commerce demonstration built with Next.js 16 (App Router) and Nex
    The project includes a `.env.local` file with configuration:
 
    ```env
-   # NextAuth Configuration
+   # NextAuth Configuration 
    NEXTAUTH_URL=https://next-shop-project-final.vercel.app
    NEXTAUTH_SECRET=your-super-secret-key-change-this-in-production
 
